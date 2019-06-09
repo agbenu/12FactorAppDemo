@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  twelvefactorapp:
+    build:
+      context: .      
+      dockerfile: Dockerfile
+    container_name: twelvefactorapp
+    ports:
+      - "80:80"
+      
