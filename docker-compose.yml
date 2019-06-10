@@ -8,4 +8,6 @@ services:
     container_name: twelvefactorapp
     ports:
       - "80:80"
+    environment:
+      - ENVIRONMENT=${ENVIRONMENT}
       
